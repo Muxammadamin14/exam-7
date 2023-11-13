@@ -1,0 +1,192 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+  margin-right: 50px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+ul {
+  display: flex;
+}
+
+.headerbtnS {
+  text-align: center;
+  font-size: large;
+  border-radius: 17.829px;
+  background: #6C5FBC;
+  color: white;
+  width: 120px;
+  height: 60px;
+  border: 1px solid #fff;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.headerbtnS:hover {
+  background: #5a4aa8;
+}
+
+.headerbtnS:active {
+  background: #4b3a92;
+}
+
+.headerbtnL {
+  text-align: center;
+  font-size: large;
+  border-radius: 17.829px;
+  background: #fff;
+  color: #606060;
+  width: 120px;
+  height: 60px;
+  border: 1px solid #fff;
+  -webkit-border-radius: 17.829px;
+  -moz-border-radius: 17.829px;
+  -ms-border-radius: 17.829px;
+  -o-border-radius: 17.829px;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.headerbtnL:hover {
+  background: #f5f5f5;
+  color: #333;
+}
+
+.headerbtnL:active {
+  background: #e0e0e0;
+}
+
+.divgrey {
+  width: 1246px;
+  height: 1px;
+  background: #CBCBCB;
+  margin-left: 55px;
+  margin-top: 90px;
+}
+
+.headerDivs1 {
+  margin-left: 50px;
+}
+
+.cart-item {
+  width: 680px;
+  height: 100px;
+  display: flex;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  justify-content: space-between;
+  margin-bottom: 20px;
+  align-items: center;
+  text-align: center;
+}
+
+.btnMinus,
+.btnPlus {
+  width: 100px;
+  height: 50px;
+  border-radius: 11.965px;
+  border: 1px solid #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: background 0.3s ease;
+}
+
+.btnMinus {
+  background: linear-gradient(to bottom, #ffffff, #ffffff);
+}
+
+.btnPlus {
+  background: linear-gradient(to bottom, #000000, #000000);
+  color: #fff;
+}
+
+.btnMinus:hover,
+.btnPlus:hover {
+  background: linear-gradient(to bottom, #424040, #504c4c);
+}
+
+.remove {
+  width: 100px;
+  height: 50px;
+  background: linear-gradient(to bottom, #ff7f7f, #ff4c4c);
+  border-radius: 11.965px;
+  border: 1px solid #ff4c4c;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: background 0.3s ease;
+}
+
+.remove:hover {
+  background: linear-gradient(to bottom, #ffbdbd, #ff7f7f);
+}
+
+.product-to-add {
+  margin-top: 100px;
+  margin-left: 300px;
+}
+
+.imgKarx {
+  margin-right: 30px;
+}
+
+.headerDivs3 {
+  align-items: center;
+  text-align: center;
+  display: flex;
+}
+
+footer {
+  width: 1348px;
+  height: 345px;
+  flex-shrink: 0;
+  background: #EAEAEA;
+  margin-top: 200px;
+}
+
+.footer-div-1 {
+  margin-left: 50px;
+  padding-top: 50px;
+}
+
+.footer-div-2 {
+  width: 1246px;
+  height: 1px;
+  background: #CBCBCB;
+  margin-left: 55px;
+  margin-top: 90px;
+}
+
+.footer-div-3 {
+  margin-top: 120px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.div-fot-one {
+  margin-left: 50px;
+  color: #999;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25px;
+}/*# sourceMappingURL=addto.css.map */
